@@ -1,0 +1,39 @@
+<AssetPackage Name="loav-airport" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>Flugplatz Vöslau-Kottingbrunn</Title>
+		<Manufacturer>beast.aero</Manufacturer>
+		<Creator>Andreas Schönwälder</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\loav-loav-airport\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\loav-loav-airport</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="LOAV">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\data\</AssetDir>
+			<OutputDir>scenery\mycompany\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="mymaterials">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\materials\</AssetDir>
+			<OutputDir>MaterialLibs\mymaterials\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
